@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+:root {
+    --font-principal: 'Inter', sans-serif;
+    --cor-primaria: #F3F5FC;
+    --cor-secundaria: #0A3871;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-principal);
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--cor-primaria);
+}
+
+.cabecalho {
+    padding: 2% 0 0 2%;
+}
+
+.logo__cabecalho img {
+    width: 7%; 
+    height: auto; 
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+}
+
+.campo__digitar input {
+    width: 120%;
+    height: 40px;
+    border: none;
+    border-bottom: 2px solid var(--cor-secundaria);
+    background: transparent;
+    color: var(--cor-secundaria);
+    padding-left: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.validacao_input {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.validacao__input__aviso img {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.botoes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 35%;
+    margin-bottom: 20px;
+}
+
+.botoes button {
+    width: 45%;
+    height: 40px;
+    margin: 0 10px;
+    background-color: var(--cor-secundaria);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.area__criptografada {
+    text-align: center;
+}
+
+.area__criptografada__borda {
+    border: 2px dashed var(--cor-secundaria);
+    border-radius: 10px;
+    padding: 60px;
+    margin-top: 20px;
+}
+
+.area__criptografada img {
+    width: 15%; 
+    height: auto; 
+    margin-bottom: 20px;
+}
+
+.area__criptografada h2, .area__criptografada h3 {
+    color: var(--cor-secundaria);
+}
+
+.rodape {
+    background-color: var(--cor-secundaria);
+    color: #FFFFFF;
+    text-align: center;
+    padding: 50px 0;
+    font-family: Arial, sans-serif;
+    font-size: 17px;
+    margin-top: 5.8%;
+}
+
+.rodape p {
+    margin: 0;
+}
